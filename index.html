@@ -4,54 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caucasus rest - Monika</title>
-    <link rel="stylesheet" href="individual proj/styles/texts/style.css">
+    <title>Caucasus rest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <p>
-        Header --> Logo-image + (Menu --> Tours + Education + Company + Comments + Galery + Contacts) + Phone + 1-BG-image
-    </p>
-        <header>
-            <img src="" alt="" class="logo-image">
+        <!-- Header Logo-image + (Menu -> Tours + Education + Company + Comments + Galery + Contacts) + Phone + 1-BG-image -->
+        <header class ="top-section">
+            <div class="logo">
+                <img src="" alt="" class="logo-image">
+                    <svg height="100" width="100"><use xlink:href="images/icons.svg#logo"></use></svg>
+                <div class="text">Организация походов в горы</div>
+            </div>
             <div class="Menu">
                 <button class="tours">Туры</button>
                 <button class="education">Обучение</dbutton>
                 <button class="company">О нас</button>
                 <button class="comments">Отзывы</button>
-                <button class="galery">Фотографии 1</button>
+                <button class="galery">Фотографии</button>
                 <button class="contacts">Контакты</button>
             </div>
             <div class="Phone">8 800 725 32 32</div>
             <div class=""></div>
         </header>
-     <p>
-      Banner --> (Headings --> Main-title + Subtitle) + Tour-select-button + (Socials --> Vk + Fb + Insta) + Tour-image
-    </p>
+     <!-- Banner -> (Headings -> Main-title + Subtitle) + Tour-select-button + (Socials -> Vk + Fb + Insta) + Tour-image-->
     <section class="banner">
         <div class="headings">
-            <h1 class="main-title"> Походы в горы Кавказа </h1>
-            <div class="subtitle">Профессионально организовываем экскурсии
-                на самые красивые вершины региона</div>
+            <h1 class="main-title">Походы в горы Кавказа</h1>
+            <div class="subtitle">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
         </div>
         <button class="tour-select-button">Выбрать экскурсию</button>
         <div class="socials">
-            <button class="vk">vk<a href="vk"> </a></button>
-            <button class="FB">f<a href="FB"></a></button>
-            <button class="Insta">Insta<a href="Insta"></a></button>
+            <ul class="socials-list">
+                <li><a href="www.vk.com"><img src="" alt=""></a></li>
+                <li><a href="www.facebook.com"><img src="" alt=""></a></li>
+                <li><a href="www.instagram.com"><img src="" alt=""></a></li>               
+            </ul>
         </div>
         <img src="" alt="" class="tour-image">
     </section>
-    <p>
-        Cards --> Headings + (Buttons --> backward-button + forward-button) + (Card --> Location + (Days --> Icon + Text) +
-        (Nights --> Icon + Text) + Title + (Difficulty --> Text + Level) + Dates + Group) + (Card --> Location + 
-        (Days --> Icon  + Text) + (Nights --> Icon + Text) + Title + (Difficulty --> Text + Level) + Dates + Group) + 
-        (Card --> Location + (Days --> Icon + Text) + (Nights --> Icon + Text) + Title + (Difficulty --> Text + Level) + 
-        Dates + Group) + all-tours-button
-    </p>
-    <section class="cards">
+    <!--     Cards -> Headings + (Buttons -> backward-button + forward-button) + (Card -> Location + (Days -> Icon + Text) +
+        (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + Dates + Group) + (Card -> Location + 
+        (Days -> Icon  + Text) + (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + Dates + Group) + 
+        (Card -> Location + (Days -> Icon + Text) + (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + 
+        Dates + Group) + all-tours-button -->
+    <section class="cards-1">
         <div class="headings">Ближайшие туры</div>
-        <button class="backward-button"> <- </button>
-        <button class="forward-button"> -> </button>
+        <button class="backward-button"><--</button>
+        <button class="forward-button">--></button>
         <div class="card">
             <div class="location">Кавказ</div>
             <div class="days">
@@ -82,184 +84,203 @@
             </div>
             <div class="title">Восхождение на гору Столовая</div>
             <div class="difficulty">
-                <div class="text"></div>
+                <div class="text">Сложность</div>
                 <div class="level"></div>
             </div>
-            <div class="dates"></div>
-            <div class="group"></div>
+            <div class="dates">Даты набора 14.06-23.06</div>
+            <div class="group">Группа до 25 чел.</div>
         </div>
         <div class="card">
-            <div class="location"></div>
-            <div class="days"></div>
-            <div class="nights"></div>
-            <div class="title"></div>
+            <div class="location">Адыгея</div>
+            <div class="days"> 7 дней</div>
+            <div class="nights">6 ночей</div>
+            <div class="title">Через Фишт к черному морю</div>
             <div class="difficulty">
-                <div class="text"></div>
+                <div class="text">Сложность</div>
                 <div class="level"></div>
             </div>
-            <div class="dates"></div>
-            <div class="group"></div>
+            <div class="dates">Даты набора 15.07-19.07</div>
+            <div class="group">Группа до 22 чел.</div>
+        <button class="alltours">Показать все туры</button>
         </div>
     </section>
-    <p>
-       About education --> (Headings --> Main-title + Subtitle) + (Buttons --> backward-button + forward-button) + 
-       Column-title + (Column --> Avatar + Name + Vk + About) + (Column --> Avatar + Name + Vk + About) + 
-        (Column --> Avatar + Name + Vk-button + About) + (Column --> Avatar + Name + Vk-button + About) + 
-        (Column --> Avatar + Name + Vk-button + About) + (Process --> Title + (3-element --> Icon + Text))  
-    </p>
+      <!--  About education -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + 
+       Column-title + (Column -> Avatar + Name + Vk + About) + (Column -> Avatar + Name + Vk + About) + 
+        (Column -> Avatar + Name + Vk-button + About) + (Column -> Avatar + Name + Vk-button + About) + 
+        (Column -> Avatar + Name + Vk-button + About) + (Process -> Title + (3-element -> Icon + Text)) -->
   <section>
     <div class="headings">
-        <div class="main-title"></div>
-        <div class="subtitle"></div>
+        <div class="main-title">Обучение</div>
+        <div class="subtitle">Обучение проводится квалифицированными специалистами, за плечами которых десятки 
+            пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
     </div>
-    <button class="backward-button"></button>
-    <button class="forward-button"></button>
-    <div class="Column-title"></div>
+    <button class="backward-button"><--</button>
+    <button class="forward-button">--></button>
+    <div class="Column-title">Наши инструкторы</div>
     <div class="Column">
         <img src="" alt="" class="avatar">
-        <div class="name"></div>
+        <div class="name">Александр Прокофьев</div>
         <button class="vk-button"></button>
-        <div class="about"></div>
-    </div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name"></div>
-        <button class="vk-button"></button>
-        <div class="about"></div>
+        <div class="about">Любит природу. Строгий, справедливый и внимательный инструктор, веселый и общительный человек.</div>
     </div>
     <div class="Column">
         <img src="" alt="" class="avatar">
-        <div class="name"></div>
+        <div class="name">Светлана Афиногенова</div>
         <button class="vk-button"></button>
-        <div class="about"></div>
+        <div class="about">Видеть мир вокруг, познавать его опасности, смотреть сквозь стены, находить друг 
+            друга, становиться ближе, чувствовать — в этом назначение жизни.</div>
     </div>
     <div class="Column">
         <img src="" alt="" class="avatar">
-        <div class="name"></div>
+        <div class="name">Надежда Колесниченко</div>
         <button class="vk-button"></button>
-        <div class="about"></div>
+        <div class="about">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках 
+            с ней чувствуешь себя спокойно и уверенно. </div>
     </div>
     <div class="Column">
         <img src="" alt="" class="avatar">
-        <div class="name"></div>
+        <div class="name">Федор Кайгородов</div>
         <button class="vk-button"></button>
-        <div class="about"></div>
+        <div class="about">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины,
+            приэльбрусье, Архыз, много путешествует по Европе.</div>
+    </div>
+    <div class="Column">
+        <img src="" alt="" class="avatar">
+        <div class="name">Сергей Денисов</div>
+        <button class="vk-button"></button>
+        <div class="about">Профессиональный гид, путешественник, спортсмен, альпинист. 
+            Блестящий рассказчик, собеседник; с ним не скучно.</div>
     </div>
     <div class="process">
-        <div class="title"></div>
+        <div class="title">Процесс обучения</div>
         <div class="element">
             <div class="icon"></div>
-            <div class="text"></div>
+            <div class="text">Изучение спортивного туристского движения</div>
         </div>
         <div class="element">
             <div class="icon"></div>
-            <div class="text"></div>
+            <div class="text">Подготовка и техническое снаряжение в походах</div>
         </div>
         <div class="element">
             <div class="icon"></div>
-            <div class="text"></div>
+            <div class="text">Лекции по экологии, окружающей среде и гигиене</div>
+        </div>
+        div class="element">
+            <div class="icon"></div>
+            <div class="text">Разъяснение характера горных препядствий и их сложности</div>
         </div>
     </div>
   </section>
-    <p>
-        About company --> Company-image + Headings + (History --> Title + Subtitle) + (Goal --> Title + Subtitle)
-    </p>
+      <!--   About company -> Company-image + Headings + (History -> Title + Subtitle) + (Goal -> Title + Subtitle) -->
    <section>
         <img src="" alt="" class="company-emage">
-        <div class="headings"></div>
+        <div class="headings">О нас</div>
         <div class="history">
-            <div class="title"></div>
-            <div class="subtitle"></div>
+            <div class="title">История компании</div>
+            <div class="subtitle">В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения, нам 
+                это настолько понравилось, что мы этим стали жить. Спустя 5 лет, в 2005 году мы основали компанию, чтобы 
+                показывать людям удивительные места Северного Кавказа.</div>
         </div>
         <div class="goal">
-            <div class="title"></div>
-            <div class="subtitle"></div>
+            <div class="title">Наша цель</div>
+            <div class="subtitle"> Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все 
+                организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется 
+                только наслаждаться незабываемым приключеним.</div>
         </div>
    </section>
-   <p>
-       Comments --> (Headings --> Main-title + Subtitle) + (Buttons --> backward-button + forward-button) + 
-        (1-Comment --> Avatar + (Info --> Name + Age-Adress) + Text) +
-        (2-Comment --> Avatar + (Info --> Name + Age-Adress) + Text) + 
-        (3-Comment --> Avatar + (Info --> Name + Age-Adress) + Text)
-   </p>
+<!-- Comments -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + 
+        (1-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) +
+        (2-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) + 
+        (3-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) -->
    <section class="comments">
        <div class="headings">
-           <div class="main-title"></div>
-           <div class="subtitle"></div>
+           <div class="title">Отзывы</div>
        </div>
-       <button class="backward-button"></button>
-       <button class="forward-button"></button>
+       <button class="backward-button"><--</button>
+       <button class="forward-button">--></button>
        <div class="comment">
            <img src="" alt="" class="avatar">
            <div class="info">
-               <div class="name"></div>
-               <div class="age-adress"></div>
+               <div class="name">Фролов Александр</div>
+               <div class="age-adress">28 лет, Москва</div>
            </div>
-           <div class="text"></div>
+           <div class="text">Осенью ходили в поход с друзьями. Впечатления исключительно положительные! Инструкторы - 
+               настоящие эксперты - всему научили, все показали. Рассказали истории о всех местах, которые мы так или 
+               иначе посещали. С уверенностью могу разделить жизнь на до этого похода и после. Настолько сильно не
+                отдыхал душой и телом никогда. Всем рекомендую! </div>
        </div>
        <div class="comment">
            <div class="avatar"></div>
            <div class="info">
-               <div class="name"></div>
-               <div class="age-adress"></div>
+               <div class="name">Светлана Олейник</div>
+               <div class="age-adress">25 лет, Владивосток</div>
            </div>
-           <div class="text"></div>
+           <div class="text">Хороший полноценный поход с разнообразными локациями. В начале дорога идет по лыжне, далее 
+               прошли мимо полигона, по болотам, у озер и лесных ручьев, остатков дач конца 19 века. Инструктор Федор 
+               Кайгородов добросовестный и внимательный к технике безопасности и своим туристам. Совет для будущих 
+               оходников: важно соблюсти рекомендации в памятке.</div>
        </div>
        <div class="comment">
            <div class="avatar"></div>
            <div class="info">
-               <div class="name"></div>
-               <div class="age-adress"></div>
+               <div class="name">Евгения Баженова</div>
+               <div class="age-adress">23 года, Кастрома</div>
            </div>
-           <div class="text"></div>
+           <div class="text">Поход понравился!! Ранее не ходила на такие длинные дистанции. В первый день прошли около 30 км, 
+               физически я устала на 18м, поэтому не была уверена, пройду ли до конца. Но шла и шла впереди, не плелась в конце 
+               группы. К моему удивлению второй день прошел для меня легче, чем ожидала, видимо дело привычки. Спасибо ребятам и 
+               инструкторам за помощь и поддержку!</div>
        </div>
    </section>
-    <p>
-        Galery --> (Headings --> Main-title + Subtitle) + (Buttons --> backward-button + forward-button) + Photos
-    </p>
+   <!-- Galery -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + Photos -->
    <section>
         <div class="headings">
-            <div class="main-title"></div>
-            <div class="subtitle"></div>
+            <div class="main-title">Фотогалерея</div>
+            <div class="subtitle">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
+                Лучшие фотографии украсят этот раздел нашего сайта.</div>
         </div>
+        <button class="backward-button"><--</button>
+        <button class="forward-button">--></button>
         <div class="photos"></div>
    </section>
-    <p>
-        Feedback --> (Form --> Main-title + Subtitle) + (Inputs --> Name + Number) + Send-Button + last-BG-image
-    </p>
+       <!-- Feedback -> (Form -> Main-title + Subtitle) + (Inputs -> Name + Number) + Send-Button + last-BG-image --> 
    <section>
     <div class="form">
-        <div class="main-title"></div>
-        <div class="subtitle"></div>
+        <div class="main-title">Остались вопросы?</div>
+        <div class="subtitle">Заполните форму и наш оператор свяжется с вами для консультации.</div>
     </div>
-    <input type="text" class="name">
-    <input type="text" class="number">
-    <button class="send-button"></button>
+    <input type="text" class="name" placeholder="Как к вам обращаться?">
+    <input type="text" class="number" placeholder="Телефон">
+    <button class="send-button">Отправить</button>
     <img src="" alt="" class="last-BG-image">
    </section>
-    <p>
-        Footer --> (Top --> Logo-image + (Menu --> Tours + Education + Company + Galery + Feedback)   + Phone) + 
-        (Bottom --> (Social-media --> Vk-button + FB-button + Inst-button) + Text)
-    </p>
+    <!--     Footer -> (Top -> Logo-image + (Menu -> Tours + Education + Company + Galery + Feedback)   + Phone) + 
+        (Bottom -> (Social-media -> Vk-button + FB-button + Inst-button) + Text) -->
     <footer>
         <div class="top">
-            <img src="" alt="" class="logo-image">
-            <div class="menu">
-                <button class="tours"></button>
-                <button class="education"></button>
-                <button class="company"></button>
-                <button class="galery"></button>
-                <button class="feedback"></button>
+            <div class="logo">
+                <img src="" alt="" class="logo-image">
+                <div class="title">Организация походов в горы</div>
             </div>
-            <div class="number"></div>
+            <div class="menu">
+                <button class="tours">Туры</button>
+                <button class="education">Обучение</button>
+                <button class="company">О нас</button>
+                <button class="comments">Отзывы</button>
+                <button class="galery">Фотографии</button>
+                <button class="feedback">Кнтакты</button>
+            </div>
+            <div class="number">8 800 725 32 32</div>
         </div>
         <div class="bottom">
             <div class="social-media">
-                <button class="vk-buton"></button>
-                <button class="fb-button"></button>
-                <button class="inst-button"></button>
+                <ul class="socials-list">
+                    <li><a href="www.vk.com"><img src="" alt=""></a></li>
+                    <li><a href="www.facebook.com"><img src="" alt=""></a></li>
+                    <li><a href="www.instagram.com"><img src="" alt=""></a></li>               
+                </ul>
             </div>
-            <div class="text"></div>
+            <div class="text">Политика конфиденциальности</div>
         </div>
     </footer>
 </body>
