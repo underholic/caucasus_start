@@ -7,6 +7,71 @@ body {
 .top-section {
     background: url("../images/big-bg..png"); absolute; cover; width: 1440px; height: 774px; no-repeat;       
 }
-.cards-1 {
-    background: url("../images/облака.png");  absolute; cover; width: 1440px; height: 1390px; no-repeat;
+.banner {
+    background: url("../images/облака.png");  absolute cover width: 1440px; height: 1390px no-repeat
+}
+
+header {
+    display: inline-block;
+    width: 1195px;
+    height: 779px;
+    padding-right: 123px;
+    padding-left: 122px;
+    box-sizing: border-box;
+}
+
+.tour-select-button {
+    position: absolute;
+    width: 246px;
+    height: 59px;
+    background: #0266C1
+}
+
+.Socials-top {
+    display: inline-block;
+    position: absolute;
+    width: 98px;
+    height: 21.3px;
+    left: 1219px;
+    top: 625px;
+}
+
+.Menu {
+    display: inline-block;
+    position: absolute;
+    width: 644px;
+    height: 14px;
+    left: 426px;
+    top: 69px;
+    color: #FFFFFF;
+}
+
+.Phone {
+    position: absolute;
+    width: 164px;
+    height: 16px;
+    left: 1155px;
+    top: 68px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 158.86%;
+    text-align: right;
+    color: #FFFFFF;
+}
+footer {
+    position: absolute;
+    width: 1197px;
+    height: 163px;
+    left: 123px;
+    top: 5143px;
+}
+
+.form {
+    position: absolute;
+    width: 985px;
+    height: 203px;
+    left: 227px;
+    top: 4644px;
 }
