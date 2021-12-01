@@ -28,7 +28,7 @@ header {
 }
 
 .Socials-top {
-    display: inline-block;
+    display: inline-flex;
     position: absolute;
     width: 98px;
     height: 21.3px;
@@ -37,13 +37,36 @@ header {
 }
 
 .Menu {
-    display: inline-block;
+    display: flex;
     position: absolute;
-    width: 644px;
     height: 14px;
     left: 426px;
     top: 69px;
     color: #FFFFFF;
+}
+
+.tours {
+    padding-right: 45.02px; 
+}
+
+.education {
+    padding-right: 45.02px; 
+}
+
+.company {
+    padding-right: 45.02px; 
+}
+
+.comments {
+    padding-right: 45.02px; 
+}
+
+.galery {
+    padding-right: 45.02px; 
+}
+
+.contacts {
+    padding-right: 45.02px; 
 }
 
 .Phone {
