@@ -5,96 +5,137 @@ body {
     }
 
 .top-section {
-    background: url("../images/big-bg..png"); absolute; cover; width: 1440px; height: 774px; no-repeat;       
+    background: url("../images/big-bg..png"); flex;  cover; width: 1440px; height: 774px; no-repeat;  
+    color: #FFFFFF;
 }
+
 .banner {
-    background: url("../images/облака.png");  absolute cover width: 1440px; height: 1390px no-repeat
+    background: url("../images/облака.png");  cover; width: 1440px; height: 1390px no-repeat;
 }
 
-header {
-    display: inline-block;
-    width: 1195px;
-    height: 779px;
-    padding-right: 123px;
-    padding-left: 122px;
-    box-sizing: border-box;
-}
-
-.tour-select-button {
-    position: absolute;
-    width: 246px;
-    height: 59px;
-    background: #0266C1
-}
-
-.Socials-top {
-    display: inline-flex;
-    position: absolute;
-    width: 98px;
+.socials-list {
+    list-style: none;
     height: 21.3px;
     left: 1219px;
     top: 625px;
+    padding-right: 123px;
+    padding-top: 164px;
+    padding-left: 1219px;
 }
 
-.Menu {
-    display: flex;
-    position: absolute;
-    height: 14px;
-    left: 426px;
-    top: 69px;
-    color: #FFFFFF;
+.vk {
+    height: 21.3px;
+    background: #0266C1;
+    opacity: 0.43;
+    padding-right: 17px;
+}
+
+.fb {
+    height: 21.3px;
+    background: #0266C1;
+    opacity: 0.43;
+    padding-right: 17px;
+}
+
+.insta {
+    height: 21.3px;
+    background: #0266C1;
+    opacity: 0.43;
+    padding-right: 17px;
 }
 
 .tours {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-left: 78px;
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .education {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .company {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .comments {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .galery {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .contacts {
+    height: 14px;
     padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
 }
 
 .Phone {
-    position: absolute;
-    width: 164px;
-    height: 16px;
-    left: 1155px;
-    top: 68px;
-    font-family: Montserrat;
-    font-style: normal;
+    height: 14px;
+    padding-right: 45.02px; 
+    padding-top: 35px;
+    margin-top: 22px;
     font-weight: bold;
     font-size: 19px;
-    line-height: 158.86%;
-    text-align: right;
-    color: #FFFFFF;
 }
+
 footer {
-    position: absolute;
-    width: 1197px;
     height: 163px;
     left: 123px;
     top: 5143px;
 }
 
 .form {
-    position: absolute;
     width: 985px;
     height: 203px;
     left: 227px;
     top: 4644px;
+}
+
+.top-section-title {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    padding-left: 121px;
+    padding-top: 180px;
+}
+
+.top-section-subtitle {
+    width: 468px;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 148,6%;
+    padding-left: 123px;
+    margin-top: 21px;
+}
+
+.tour-select-button {
+    position: absolute;
+    width: 246px;
+    height: 59px;
+    background-color: #0266C1;
+    margin-left: 123px;
+    margin-top: 32px;
+    border-color: #0266C1;   
 }

@@ -13,52 +13,50 @@
 <body>
         <!-- Header Logo-image + (Menu -> Tours + Education + Company + Comments + Galery + Contacts) + Phone + 1-BG-image -->
         <header class ="top-section">
-            <svg width="226" height="61,87">
-                <use xlink:href="images/icons.svg#Logo"></use>
-            </svg>
-            <ul class="Menu" widht=45,02px list-style=none>
-                <li class="tours">Туры</li>
-                <li class="education">Обучение</li>
-                <li class="company">О нас</li>
-                <li class="comments">Отзывы</li>
-                <li class="galery">Фотографии</li>
-                <li class="contacts">Контакты</li>
-            </ul>
-            <div class="Phone">8 800 725 32 32</div>
+            <div class="nav" style="display: flex">
+                <svg style="padding-left:122px; padding-top:11px; margin-top:32px; width:226px; height:62px">
+                     <use xlink:href="images/icons.svg#Logo"></use>
+                </svg>
+                <ul class="Menu" style="list-style:none; display: flex">
+                    <li class="tours">Туры</li>
+                    <li class="education">Обучение</li>
+                    <li class="company">О нас</li>
+                    <li class="comments">Отзывы</li>
+                    <li class="galery">Фотографии</li>
+                    <li class="contacts">Контакты</li>
+                    <li class="Phone" style="font-weight:bold">8 800 725 32 32</li>
+                </ul>
+            </div>
+            <h1 class="top-section-title">Походы в горы Кавказа</h1>
+                <div class="top-section-subtitle">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
+            <button class="tour-select-button" style="color:#FFFFFF; font-size: 16px; font-style: normal; font-weight: 100;">Выбрать экскурсию</button>
+             <div class="Socials-top">
+                <ul class="socials-list" style="display: flex">
+                    <li class="vk">
+                        <a href="www.vk.com">
+                            <svg width="27" height="27">
+                                <use xlink:href="images/icons.svg#vk"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="fb">
+                        <a href="www.facebook.com">
+                            <svg width="27" height="27">
+                                <use xlink:href="images/icons.svg#FB"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="insta">
+                        <a href="www.instagram.com">
+                            <svg width="27" height="27">
+                                <use xlink:href="images/icons.svg#insta"></use>
+                            </svg>
+                        </a>
+                    </li>               
+                </ul>
+            </div>
+            <img src="" alt="" class="tour-image">
         </header>
-     <!-- Banner -> (Headings -> Main-title + Subtitle) + Tour-select-button + (Socials -> Vk + Fb + Insta) + Tour-image-->
-    <section class="banner">
-        <div class="headings">
-            <h1 class="main-title">Походы в горы Кавказа</h1>
-            <div class="subtitle">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
-        </div>
-        <button class="tour-select-button">Выбрать экскурсию</button>
-        <div class="Socials-top">
-            <ul class="socials-list">
-                <li>
-                    <a href="www.vk.com">
-                        <svg width="27" height="27">
-                            <use xlink:href="images/icons.svg#vk"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="www.facebook.com">
-                        <svg width="27" height="27">
-                            <use xlink:href="images/icons.svg#FB"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="www.instagram.com">
-                        <svg width="27" height="27">
-                            <use xlink:href="images/icons.svg#insta"></use>
-                        </svg>
-                    </a>
-                </li>               
-            </ul>
-        </div>
-        <img src="" alt="" class="tour-image">
     </section>
     <!--     Cards -> Headings + (Buttons -> backward-button + forward-button) + (Card -> Location + (Days -> Icon + Text) +
         (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + Dates + Group) + (Card -> Location + 
