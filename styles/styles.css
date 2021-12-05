@@ -3,99 +3,117 @@ body {
     background-color: pink;
     }
 
+.wrapper {
+    padding-right: 123px;
+    padding-left: 121px;
+    padding-top: 31px;
+}
+
 .top-section {
-    background: url("../images/big-bg..png"); flex;  cover; width: 1440px; height: 774px; no-repeat;  
+    background: url("../images/big-bg..png"); background-repeat: no-repeat;  
     color: #FFFFFF;
 }
 
 .banner {
-    background: url("../images/облака.png");  flex; cover; width: 1440px; height: 1390px no-repeat;
-}
-
-.socials-list {
-    list-style: none;
-    height: 21.3px;
-    left: 1219px;
-    top: 625px;
-    padding-right: 123px;
-    padding-top: 164px;
-    padding-left: 1219px;
-}
-
-.vk {
-    width: 30.3px;
-    height: 30.3px;
-    background: #0266C1;
-    opacity: 0.43;
-    margin-right: 17px;
-}
-
-.fb {
-    width: 30.3px;
-    height: 30.3px;
-    background: #0266C1;
-    opacity: 0.43;
-    margin-right: 17px;
-}
-
-.insta {
-    height: 30.3px;
-    width: 30.3px;
-    background: hsl(209, 98%, 38%);
-    opacity: 0.43;
-    margin-right: 17px;
+    background: url("../images/облака.png");  background-repeat: no-repeat;  
 }
 
 .tours {
+    padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-left: 78px;
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .education {
+    padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .company {
+     padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .comments {
+    padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .galery {
+    padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .contacts {
+    padding-right: 45.02px;
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
 }
 
 .Phone {
     height: 14px;
-    padding-right: 45.02px; 
-    padding-top: 35px;
-    margin-top: 22px;
+    padding-top: 38px;
     font-weight: bold;
     font-size: 19px;
+}
+
+.top-section-title {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    padding-top: 180px;
+}
+
+.top-section-subtitle {
+    width: 468px;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    margin-top: 21px;
+}
+
+.tour-select-button {
+    background-color: #0266C1;
+    margin-top: 32px;
+    border-color: #0266C1;   
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 39px;
+    padding-left: 38px;
+}
+
+
+.socials-list {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-bottom: 146px;
+}
+
+.vk {
+    display: flex;
+    background-color: rgba(2, 102, 193, 0.4);
+    margin-right: 17px;
+}
+
+.fb {
+    display: flex;
+    background-color: rgba(2, 102, 193, 0.4);
+    margin-right: 17px;
+}
+
+.insta {
+    display: flex;
+    background-color: rgba(2, 102, 193, 0.4);
+    margin-right: 17px;
 }
 
 footer {
@@ -109,35 +127,4 @@ footer {
     height: 203px;
     left: 227px;
     top: 4644px;
-}
-
-.top-section-title {
-    color: #FFFFFF;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 55px;
-    padding-left: 121px;
-    padding-top: 180px;
-}
-
-.top-section-subtitle {
-    width: 468px;
-    color: #FFFFFF;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 148,6%;
-    padding-left: 123px;
-    margin-top: 21px;
-}
-
-.tour-select-button {
-    position: absolute;
-    width: 246px;
-    height: 59px;
-    background-color: #0266C1;
-    margin-left: 123px;
-    margin-top: 32px;
-    border-color: #0266C1;   
 }

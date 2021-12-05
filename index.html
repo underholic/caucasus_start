@@ -7,14 +7,16 @@
     <title>Caucasus rest</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
         <!-- Header Logo-image + (Menu -> Tours + Education + Company + Comments + Galery + Contacts) + Phone + 1-BG-image -->
         <header class ="top-section">
-            <div class="nav" style="display: flex">
-                <svg style="padding-left:122px; padding-top:11px; margin-top:32px; width:226px; height:62px">
+            <div class="wrapper">
+                <div class="nav" style="display: flex">
+                <svg style="padding-top:31px; width:226px; height:62px">
                      <use xlink:href="images/icons.svg#Logo"></use>
                 </svg>
                 <ul class="Menu" style="list-style:none; display: flex">
@@ -26,36 +28,35 @@
                     <li class="contacts">Контакты</li>
                     <li class="Phone" style="font-weight:bold">8 800 725 32 32</li>
                 </ul>
-            </div>
-            <h1 class="top-section-title">Походы в горы Кавказа</h1>
+                </div>
+                <h1 class="top-section-title">Походы в горы Кавказа</h1>
                 <div class="top-section-subtitle">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
-            <button class="tour-select-button" style="color:#FFFFFF; font-size: 16px; font-style: normal; font-weight: 100;">Выбрать экскурсию</button>
-             <div class="Socials-top">
-                <ul class="socials-list" style="display: flex">
-                    <li class="vk">
-                        <a href="www.vk.com">
-                            <svg width="27" height="27">
-                                <use xlink:href="images/icons.svg#vk"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="fb">
-                        <a href="www.facebook.com">
-                            <svg width="27" height="27">
-                                <use xlink:href="images/icons.svg#FB"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="insta">
-                        <a href="www.instagram.com">
-                            <svg width="27" height="27">
-                                <use xlink:href="images/icons.svg#insta"></use>
-                            </svg>
-                        </a>
-                    </li>               
-                </ul>
+                <button class="tour-select-button" style="color:#FFFFFF; font-size: 16px; font-style: normal; font-weight: 100;">Выбрать экскурсию</button>
+                    <ul class="socials-list">
+                        <li class="vk">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="fb">
+                            <a href="www.facebook.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#FB"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="insta">
+                            <a href="www.instagram.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#insta"></use>
+                                </svg>
+                            </a>
+                        </li>               
+                    </ul>
+                <img src="" alt="" class="tour-image">
             </div>
-            <img src="" alt="" class="tour-image">
         </header>
     </section>
     <!--     Cards -> Headings + (Buttons -> backward-button + forward-button) + (Card -> Location + (Days -> Icon + Text) +
