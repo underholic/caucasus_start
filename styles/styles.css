@@ -41,7 +41,7 @@ body {
 .insta {
     height: 30.3px;
     width: 30.3px;
-    background: #0266C1;
+    background: hsl(209, 98%, 38%);
     opacity: 0.43;
     margin-right: 17px;
 }
