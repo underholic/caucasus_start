@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color: green;
     background-color: pink;
     }
 
@@ -10,7 +9,7 @@ body {
 }
 
 .banner {
-    background: url("../images/облака.png");  cover; width: 1440px; height: 1390px no-repeat;
+    background: url("../images/облака.png");  flex; cover; width: 1440px; height: 1390px no-repeat;
 }
 
 .socials-list {
@@ -24,24 +23,27 @@ body {
 }
 
 .vk {
-    height: 21.3px;
+    width: 30.3px;
+    height: 30.3px;
     background: #0266C1;
     opacity: 0.43;
-    padding-right: 17px;
+    margin-right: 17px;
 }
 
 .fb {
-    height: 21.3px;
+    width: 30.3px;
+    height: 30.3px;
     background: #0266C1;
     opacity: 0.43;
-    padding-right: 17px;
+    margin-right: 17px;
 }
 
 .insta {
-    height: 21.3px;
+    height: 30.3px;
+    width: 30.3px;
     background: #0266C1;
     opacity: 0.43;
-    padding-right: 17px;
+    margin-right: 17px;
 }
 
 .tours {
