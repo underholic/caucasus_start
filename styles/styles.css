@@ -142,6 +142,8 @@ footer {
 
 .comingtours {
     font-style: normal;
+    margin-top: 0px;
+    padding-top: 19px;
     font-weight: 800;
     font-size: 35px;
     line-height: 43px;
@@ -150,11 +152,9 @@ footer {
 
 .buttons {
     display: flex;
-}
-
-.battons {
-    display: flex;
-    
+    justify-content: end;
+    flex-direction: row;
+    margin-top: -24px;
 }
 
 .backward-button {
@@ -215,4 +215,110 @@ footer {
     margin-right: 17px;
     max-width: 28.3px;
     max-height: 28.3px;
+}
+
+.tour-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ing {
+    background: url("../images/elbrus.png"); background-repeat: no-repeat; 
+    max-width: 384.17px;
+    max-height: 412px;
+    padding-top: 50px;
+    padding-right: 20.74px;
+}
+.location-time-ing {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 206px;
+    padding-left: 21px;
+}
+
+.location {
+    display: flex;
+    padding-right: 28.38px;
+    width: 114.56px;
+    height: 29px;
+    left: 142px;
+    top: 1145px;
+    background: #0266C1;
+    }
+
+    .caucasus {
+    padding-top: 6px;
+    padding-right: 26.17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    }
+
+.days {
+    padding-left: 28.38px;
+}
+
+.titleing {
+    padding-top: 28px;
+    padding-right: 122.46px;
+    padding-bottom: 105px;
+    margin-left: 19.75px;
+    max-width: 241.96px;
+    max-height: 49px;
+    left: 140.75px;
+    top: 1197px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.mount {
+    background: url("../images/mount.jpeg"); background-repeat: no-repeat; 
+    max-width: 384.17px;
+    max-height: 412px;
+}
+
+.title-mount {
+    padding-top: 258px;
+    padding-right: 122.46px;
+    padding-bottom: 105px;
+    margin-left: 19.75px;
+    max-width: 241.96px;
+    max-height: 49px;
+    left: 140.75px;
+    top: 1197px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.fisht {
+    background: url("../images/fisht.png"); background-repeat: no-repeat; 
+    max-width: 384.17px;
+    max-height: 412px;
+    padding-left: 20.91px;
+}
+
+.title-fisht {
+    max-width: 241.96px;
+    max-height: 49px;
+    left: 140.75px;
+    top: 1197px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
