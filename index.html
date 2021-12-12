@@ -13,19 +13,19 @@
 </head>
 <body>
         <!-- Header Logo-image + (Menu -> Tours + Education + Company + Comments + Galery + Contacts) + Phone + 1-BG-image -->
-        <header class ="top-section">
-            <div class="wrapper">
-                <div class="nav" style="display: flex">
-                <svg style="padding-top:31px; width:226px; height:62px">
+    <header class ="top-section">
+        <div class="wrapper">
+            <div class="nav" style="display: flex">
+                <svg style="padding-top:11px; min-width:226px; min-height:62px">
                      <use xlink:href="images/icons.svg#Logo"></use>
                 </svg>
-                <ul class="Menu" style="list-style:none; display: flex">
-                    <li class="tours">Туры</li>
-                    <li class="education">Обучение</li>
-                    <li class="company">О нас</li>
-                    <li class="comments">Отзывы</li>
-                    <li class="galery">Фотографии</li>
-                    <li class="contacts">Контакты</li>
+                <ul class="Menu">
+                    <li class="item">Туры</li>
+                    <li class="item">Обучение</li>
+                    <li class="item">О нас</li>
+                    <li class="item">Отзывы</li>
+                    <li class="item">Фотографии</li>
+                    <li class="item">Контакты</li>
                 </ul>
                      <div class="Phone">8 800 725 32 32</div>
                 </div>
@@ -41,423 +41,521 @@
                             </a>
                         </li>
                         <li class="fb">
-                            <a href="www.facebook.com">
-                                <svg width="21.3" height="21.3">
-                                    <use xlink:href="images/icons.svg#FB"></use>
+                            <a href="https://www.facebook.com/">
+                                <svg>
+                                    <use xlink:href="images/icons.svg#fb"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="insta">
                             <a href="www.instagram.com">
-                                <svg width="21.3" height="21.3">
+                                <svg>
                                     <use xlink:href="images/icons.svg#insta"></use>
                                 </svg>
                             </a>
                         </li>               
                     </ul>
-                <img src="" alt="" class="tour-image">
-            </div>
-        </header>
-    </section>
-    <!--     Cards -> Headings + (Buttons -> backward-button + forward-button) + (Card -> Location + (Days -> Icon + Text) +
-        (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + Dates + Group) + (Card -> Location + 
-        (Days -> Icon  + Text) + (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + Dates + Group) + 
-        (Card -> Location + (Days -> Icon + Text) + (Nights -> Icon + Text) + Title + (Difficulty -> Text + Level) + 
-        Dates + Group) + all-tours-button -->
-    <section class="cards-1">
-        <div class="wrapper">
-            <div class="comingtours">Ближайшие туры</div>
-            <div class="buttons">
-                <div class="backward-button">
-                    <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                        <use xlink:href="images/icons.svg#arrow-l"></use>
-                    </svg>
+                <img src="" alt="" class="tour-image">  
+        <section class="cards-1">
+                <div class="main-title">Ближайшие туры</div>
+                    <div class="buttons">
+                        <div class="backward-button">
+                            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                                <use xlink:href="images/icons.svg#arrow-l"></use>
+                            </svg>
+                        </div>
+                        <div class="forward-button"> 
+                            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                                <use xlink:href="images/icons.svg#arrow-r"></use>
+                            </svg>  
+                        </div>
+                    </div>
+                    <div class="tour-cards">
+                        <div class="ing">
+                        <div class="location-time">
+                                <div class="location">
+                                    <svg class="loco" wedth=9px; height=12px>
+                                        <use xlink:href="images/icons.svg#location"></use>
+                                    </svg>
+                                    <div class="where">Кавказ</div>
+                                </div>
+                                <div class="days">
+                                    <svg wedth=21.73px; height=22px>
+                                        <use xlink:href="images/icons.svg#days"></use>
+                                    </svg>
+                                    <div class="count">4 дня</div>
+                                </div>
+                                <div class="nights">
+                                        <svg wedth=20px; height=20px>
+                                            <use xlink:href="images/icons.svg#nights"></use>
+                                        </svg>
+                                    <div class="count">3 ночи</div> 
+                                </div>
+                            </div>           
+                            <div class="titletour">Путешествие вокруг Эльбруса</div>
+                            <svg class="line" wedth=15px; height=13.3px>
+                                <use xlink:href="images/icons.svg#line"></use>
+                            </svg>
+                            <div class="level-dates-group">
+                                <div class="difficulty">
+                                    <div class="level">Сложность:</div>
+                                    <div class="stars">
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="datestext">Даты набора:</div> 
+                                    <div class="datesnumber">12.06-19.06</div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="grouptext">Группа:</div>
+                                    <div class="groupnumber">до 15 чел.</div>
+                                </div>    
+                            </div> 
+                        </div>   
+                        <div class="mount">
+                            <div class="location-time">
+                                <div class="location">
+                                    <svg class="locoing" wedth=9px; height=12px>
+                                        <use xlink:href="images/icons.svg#location"></use>
+                                    </svg>
+                                    <div class="whereing">Ингушетия</div>
+                                </div>
+                                <div class="days">
+                                    <svg wedth=21.73px; height=22px>
+                                        <use xlink:href="images/icons.svg#days"></use>
+                                    </svg>
+                                    <div class="count">5 дней</div>
+                                </div>
+                                <div class="nights">
+                                        <svg wedth=20px; height=20px>
+                                            <use xlink:href="images/icons.svg#nights"></use>
+                                        </svg>
+                                    <div class="count">4 ночи</div> 
+                                </div>
+                            </div>           
+                            <div class="titletour">Восхождение на гору Столовая</div>
+                            <svg class="line" wedth=15px; height=13.3px>
+                                <use xlink:href="images/icons.svg#line"></use>
+                            </svg>
+                            <div class="level-dates-group">
+                                <div class="difficulty">
+                                    <div class="level">Сложность:</div>
+                                    <div class="stars">
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="datestext">Даты набора:</div> 
+                                    <div class="datesnumber">14.06-23.06</div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="grouptext">Группа:</div>
+                                    <div class="groupnumber">до 25 чел.</div>
+                                </div>    
+                            </div> 
+                        </div>   
+                        <div class="fisht">
+                            <div class="location-time">
+                                <div class="location">
+                                    <svg class="loco" wedth=9px; height=12px>
+                                        <use xlink:href="images/icons.svg#location"></use>
+                                    </svg>
+                                    <div class="where">Адыгея</div>
+                                </div>
+                                <div class="days">
+                                    <svg wedth=21.73px; height=22px>
+                                        <use xlink:href="images/icons.svg#days"></use>
+                                    </svg>
+                                    <div class="count">7 дней</div>
+                                </div>
+                                <div class="nights">
+                                        <svg wedth=20px; height=20px>
+                                            <use xlink:href="images/icons.svg#nights"></use>
+                                        </svg>
+                                    <div class="count">6 ночи</div> 
+                                </div>
+                            </div>           
+                            <div class="titletour">Через Фишт к черному морю</div>
+                            <svg class="line" wedth=15px; height=13.3px>
+                                <use xlink:href="images/icons.svg#line"></use>
+                            </svg>
+                            <div class="level-dates-group">
+                                <div class="difficulty">
+                                    <div class="level">Сложность:</div>
+                                    <div class="stars">
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#AbsStar"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                        <svg wedth=15px; height=13.3px>
+                                            <use xlink:href="images/icons.svg#Star"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="datestext">Даты набора:</div> 
+                                    <div class="datesnumber">15.07-19.07</div>
+                                </div>
+                                <div class="dates-group">
+                                    <div class="grouptext">Группа:</div>
+                                    <div class="groupnumber">до 22 чел.</div>
+                                </div>    
+                            </div> 
+                        </div>   
+                    </div>   
+                    <div class="alltours">
+                        <div class="alltourstext">Показать все туры</div>
+                        <svg class="vectorR">
+                            <use xlink:href="images/icons.svg#vectorR"></use>
+                        </svg>  
+                    </div>
                 </div>
-                <div class="forward-button"> 
-                    <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                        <use xlink:href="images/icons.svg#arrow-r"></use>
-                    </svg>  
-                 </div>
-            </div>
-            <div class="tour-cards">
-                <div class="ing">
-                    <div class="location-time-ing">
-                        <div class="location">
-                            <svg wedth=9px; height=12px>
-                                <use xlink:href="images/icons.svg#location"></use>
-                            </svg>
-                            <div class="caucasus">Кавказ</div>
-                        </div>
-                        <div class="days">
-                            <svg wedth=21.73px; height=22px>
-                                <use xlink:href="images/icons.svg#days"></use>
-                            </svg>
-                            4 дней</div>
-                        <div class="nights">
-                            <svg wedth=20px; height=20px>
-                                <use xlink:href="images/icons.svg#nights"></use>
-                            </svg>
-                            3 ночей</div>
-                    </div>        
-                    <div class="titleing">Путешествие вокруг Эльбруса</div>
-                    <div class="difficulty">
-                        <div class="text">Сложность
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                        </div>
-                        <div class="level"></div>
-                    </div>
-                    <div class="dates">Даты набора 12.06-19.06</div>
-                    <div class="group">Группа до 15 чел.</div>
-                 </div>   
-                <div class="mount">
-                    <div class="location">
-                        <svg wedth=9px; height=12px>
-                            <use xlink:href="images/icons.svg#location"></use>
-                        </svg>
-                        Ингушетия</div>
-                    <div class="days">
-                        <svg wedth=21.73px; height=22px>
-                            <use xlink:href="images/icons.svg#days"></use>
-                        </svg>
-                        5 дней</div>
-                    <div class="nights">
-                        <svg wedth=20px; height=20px>
-                            <use xlink:href="images/icons.svg#nights"></use>
-                        </svg>
-                        4 ночей</div>
-                    <div class="title-mount">Восхождение на гору Столовая</div>
-                    <div class="difficulty">
-                        <div class="text">Сложность
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                        </div>
-                        <div class="level"></div>
-                    </div>
-                    <div class="dates">Даты набора 14.06-23.06</div>
-                    <div class="group">Группа до 25 чел.</div>
-                 </div>
-                <div class="fisht">
-                    <div class="location">
-                        <svg wedth=9px; height=12px>
-                            <use xlink:href="images/icons.svg#location"></use>
-                        </svg>
-                        Адыгея</div>
-                    <div class="days">
-                        <svg wedth=21.73px; height=22px>
-                            <use xlink:href="images/icons.svg#days"></use>
-                        </svg>
-                        7 дней</div>
-                    <div class="nights">
-                        <svg wedth=20px; height=20px>
-                            <use xlink:href="images/icons.svg#nights"></use>
-                        </svg>
-                        6 ночей</div>
-                    <div class="title-fisht">Через Фишт к черному морю</div>
-                    <div class="difficulty">
-                        <div class="text">Сложность
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#AbsStar"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                            <svg wedth=15px; height=13.3px>
-                                <use xlink:href="images/icons.svg#Star"></use>
-                            </svg>
-                        </div>
-                        <div class="level"></div>
-                    </div>
-                    <div class="dates">Даты набора 15.07-19.07</div>
-                    <div class="group">Группа до 22 чел.</div>
-                 </div>
             </div>    
-            <div class="alltours">Показать все туры</div>
-         </div>   
-    </section>
+        </section>
+    </header>    
       <!--  About education -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + 
        Column-title + (Column -> Avatar + Name + Vk + About) + (Column -> Avatar + Name + Vk + About) + 
         (Column -> Avatar + Name + Vk-button + About) + (Column -> Avatar + Name + Vk-button + About) + 
         (Column -> Avatar + Name + Vk-button + About) + (Process -> Title + (3-element -> Icon + Text)) -->
   <section>
-    <div class="headings">
-        <div class="main-title">Обучение</div>
-        <div class="subtitle">Обучение проводится квалифицированными специалистами, за плечами которых десятки 
-            пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
-    </div>
-    <div class="buttons">
-        <div class="backward-button">
-            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                <use xlink:href="images/icons.svg#arrow-l"></use>
-            </svg>
-        </div>
-        <div class="forward-button"> 
-            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                <use xlink:href="images/icons.svg#arrow-r"></use>
-            </svg>  
-    </div>
-    <div class="Column-title">Наши инструкторы</div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name">Александр Прокофьев</div>
-        <button class="vk-button">
-            <svg wedth=24,66px; height=24,05px>
-                <use xlink:href="images/icons.svg#sensei-vk"></use>
-            </svg>
-        </button>
-        <div class="about">Любит природу. Строгий, справедливый и внимательный инструктор, веселый и общительный человек.</div>
-    </div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name">Светлана Афиногенова</div>
-        <button class="vk-button">
-            <svg wedth=24,66px; height=24,05px>
-                <use xlink:href="images/icons.svg#sensei-vk"></use>
-            </svg>
-        </button>
-        <div class="about">Видеть мир вокруг, познавать его опасности, смотреть сквозь стены, находить друг 
-            друга, становиться ближе, чувствовать — в этом назначение жизни.</div>
-    </div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name">Надежда Колесниченко</div>
-        <button class="vk-button">
-            <svg wedth=24,66px; height=24,05px>
-                <use xlink:href="images/icons.svg#sensei-vk"></use>
-            </svg>
-        </button>
-        <div class="about">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках 
-            с ней чувствуешь себя спокойно и уверенно. </div>
-    </div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name">Федор Кайгородов</div>
-        <button class="vk-button">
-            <svg wedth=24,66px; height=24,05px>
-                <use xlink:href="images/icons.svg#sensei-vk"></use>
-            </svg>
-        </button>
-        <div class="about">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины,
-            приэльбрусье, Архыз, много путешествует по Европе.</div>
-    </div>
-    <div class="Column">
-        <img src="" alt="" class="avatar">
-        <div class="name">Сергей Денисов</div>
-        <button class="vk-button">
-            <svg wedth=24,66px; height=24,05px>
-                <use xlink:href="images/icons.svg#sensei-vk"></use>
-            </svg>
-        </button>
-        <div class="about">Профессиональный гид, путешественник, спортсмен, альпинист. 
-            Блестящий рассказчик, собеседник; с ним не скучно.</div>
-    </div>
-    <div class="process">
-        <div class="title">Процесс обучения</div>
-        <div class="element-1">
-            <svg wedth=23,34px; height=25px>
-                 <use xlink:href="images/icons.svg#route"></use>
-            </svg>
-            Изучение спортивного туристского движения</div>
-        </div>
-        <div class="element-2">
-            <svg wedth=23,34px; height=25px>
-                <use xlink:href="images/icons.svg#nike"></use>
-            </svg>
-            Подготовка и техническое снаряжение в походах
-        </div>
-        <div class="element-3">
-            <svg wedth=23,34px; height=25px>
-                <use xlink:href="images/icons.svg#trees"></use>
-            </svg>
-                Лекции по экологии, окружающей среде и гигиене</div>
-        </div>
-        <div class="element-4">
-            <svg wedth=23,34px; height=25px>
-                <use xlink:href="images/icons.svg#mountains"></use>
-            </svg>
-            Разъяснение характера горных препядствий и их сложности</div>
-        </div>
-    </div>
+        <div class="wrapper">
+            <div class="headings">
+                <div class="edutitle">Обучение</div>
+                <div class="subtitle">Обучение проводится квалифицированными специалистами, за плечами которых десятки 
+                    пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
+            </div>
+            <div class="educationheader">
+                <div class="Column-title">Наши инструкторы</div>
+                 <div class="buttons">
+                    <div class="backward-button">
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-l"></use>
+                        </svg>
+                    </div>
+                    <div class="forward-button"> 
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-r"></use>
+                        </svg>  
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="Column">
+                    <img src="images/prokov.png" alt="Александр Прокофьев" class="avatar">
+                    <div class="tutorsinfo">
+                        <div class="name">Александр Прокофьев</div>
+                        <div class="vktutors">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about">Любит природу. Строгий, справедливый и внимательный инструктор, веселый и общительный человек.</div>
+                </div>
+                <div class="Column">
+                    <img src="images/sveta.png" alt="Светлана Офиногенова" class="avatar">
+                    <div class="tutorsinfo">
+                        <div class="name">Светлана Офиногенова</div>
+                        <div class="vktutors">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about">Видеть мир вокруг, познавать его опасности, смотреть сквозь стены, находить друг 
+                        друга, становиться ближе, чувствовать — в этом назначение жизни.</div>
+                </div>
+                <div class="Column">
+                    <img src="images/nadya.png" alt="Надежда Колесниченко" class="avatar">
+                    <div class="tutorsinfo">
+                        <div class="name">Надежда Колесниченко</div>
+                        <div class="vktutors">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках 
+                        с ней чувствуешь себя спокойно и уверенно. </div>
+                </div>
+                <div class="Column">
+                    <img src="images/fedor.png" alt="Федор Кайгородов" class="avatar">
+                    <div class="tutorsinfo">
+                        <div class="name">Федор Кайгородов</div>
+                        <div class="vktutors">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины,
+                        приэльбрусье, Архыз, много путешествует по Европе.</div>
+                </div>
+                <div class="Column">
+                    <img src="images/danya.png" alt="Сергей Денисов" class="avatar">
+                    <div class="tutorsinfo">
+                        <div class="name">Сергей Денисов</div>
+                        <div class="vktutors">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about">Профессиональный гид, путешественник, спортсмен, альпинист. 
+                        Блестящий рассказчик, собеседник; с ним не скучно.</div>
+                </div>
+            </div>
+            <div class="process">
+                <div class="Column-title">Процесс обучения</div>
+                <div class="elements">
+                    <div class="element">
+                        <svg class="edusymbol" wedth=23,34px; height=25px>
+                            <use xlink:href="images/icons.svg#route"></use>
+                        </svg>
+                        <div class="elementext">Изучение спортивного туристского движения</div>
+                    </div>
+                    <div class="element">
+                        <svg class="edusymbol3" wedth=23,34px; height=25px>
+                            <use xlink:href="images/icons.svg#nike"></use>
+                        </svg>
+                        <div class="elementext">Подготовка и техническое снаряжение в походах</div>
+                    </div>
+                    <div class="element">
+                        <svg class="edusymbol3" wedth=23,34px; height=25px>
+                            <use xlink:href="images/icons.svg#trees"></use>
+                        </svg>
+                        <div class="elementext">Лекции по экологии, окружающей среде и гигиене</div>
+                    </div>
+                    <div class="element">
+                        <svg class="edusymbol3" wedth=23,34px; height=25px>
+                            <use xlink:href="images/icons.svg#mountains"></use>
+                        </svg>
+                        <div class="elementext">Разъяснение характера горных препядствий и их сложности</div>
+                    </div>
+                </div>
+            </div>
+        </div>   
   </section>
       <!--   About company -> Company-image + Headings + (History -> Title + Subtitle) + (Goal -> Title + Subtitle) -->
-   <section>
-        <img src="" alt="" class="company-emage">
-        <div class="headings">О нас</div>
-        <div class="history">
-            <div class="title">История компании</div>
-            <div class="subtitle">В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения, нам 
-                это настолько понравилось, что мы этим стали жить. Спустя 5 лет, в 2005 году мы основали компанию, чтобы 
-                показывать людям удивительные места Северного Кавказа.</div>
-        </div>
-        <div class="goal">
-            <div class="title">Наша цель</div>
-            <div class="subtitle"> Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все 
-                организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется 
-                только наслаждаться незабываемым приключеним.</div>
-        </div>
+   <section class="company">
+    <!--img src="images/compimg.png" alt="we are" class="company-emage"-->
+       <div class="wrapper">
+           <div class="companyhistory"> 
+                <h2 class="comptitle">О нас</h2>
+                <div class="history">
+                    <h3 class="title">История компании</h3>
+                    <div class="compsubtitle">В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения, нам 
+                        это настолько понравилось, что мы этим стали жить. Спустя 5 лет, в 2005 году мы основали компанию, чтобы 
+                        показывать людям удивительные места Северного Кавказа.</div>
+                </div>
+                <div class="goal">
+                    <h3 class="title">Наша цель</h3>
+                    <div class="compsubtitle"> Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все 
+                        организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется 
+                        только наслаждаться незабываемым приключеним.</div>
+                </div>
+            </div>    
+        </div>    
    </section>
 <!-- Comments -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + 
         (1-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) +
         (2-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) + 
         (3-Comment -> Avatar + (Info -> Name + Age-Adress) + Text) -->
    <section class="comments">
-       <div class="headings">
-           <div class="title">Отзывы</div>
-       </div>
-       <div class="buttons">
-            <div class="backward-button">
-                <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                    <use xlink:href="images/icons.svg#arrow-l"></use>
-                </svg>
-            </div>
-            <div class="forward-button"> 
-                <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                    <use xlink:href="images/icons.svg#arrow-r"></use>
-                </svg>  
-        </div>
-       <div class="comment">
-           <img src="" alt="" class="avatar">
-           <div class="info">
-               <div class="name">Фролов Александр</div>
-               <div class="age-adress">28 лет, Москва</div>
-           </div>
-           <div class="text">Осенью ходили в поход с друзьями. Впечатления исключительно положительные! Инструкторы - 
-               настоящие эксперты - всему научили, все показали. Рассказали истории о всех местах, которые мы так или 
-               иначе посещали. С уверенностью могу разделить жизнь на до этого похода и после. Настолько сильно не
-                отдыхал душой и телом никогда. Всем рекомендую! </div>
-       </div>
-       <div class="comment">
-           <div class="avatar"></div>
-           <div class="info">
-               <div class="name">Светлана Олейник</div>
-               <div class="age-adress">25 лет, Владивосток</div>
-           </div>
-           <div class="text">Хороший полноценный поход с разнообразными локациями. В начале дорога идет по лыжне, далее 
-               прошли мимо полигона, по болотам, у озер и лесных ручьев, остатков дач конца 19 века. Инструктор Федор 
-               Кайгородов добросовестный и внимательный к технике безопасности и своим туристам. Совет для будущих 
-               оходников: важно соблюсти рекомендации в памятке.</div>
-       </div>
-       <div class="comment">
-           <div class="avatar"></div>
-           <div class="info">
-               <div class="name">Евгения Баженова</div>
-               <div class="age-adress">23 года, Кастрома</div>
-           </div>
-           <div class="text">Поход понравился!! Ранее не ходила на такие длинные дистанции. В первый день прошли около 30 км, 
-               физически я устала на 18м, поэтому не была уверена, пройду ли до конца. Но шла и шла впереди, не плелась в конце 
-               группы. К моему удивлению второй день прошел для меня легче, чем ожидала, видимо дело привычки. Спасибо ребятам и 
-               инструкторам за помощь и поддержку!</div>
-       </div>
+       <div class="wrapper">
+            <div class="coms">
+                <h2 class="title" style="max-width: 153px; margin-top: 2px; margin-right: 964px;">Отзывы</h2>
+                <div class="buttons">
+                     <div class="backward-button">
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-l"></use>
+                        </svg>
+                    </div>
+                    <div class="forward-button"> 
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-r"></use>
+                        </svg>  
+                    </div>
+                </div>  
+            </div>  
+            <div class="columns">
+                <div class="comment">
+                    <div class="cominfo">
+                        <img src="images/frolov.png" alt="Фролов Александр" class="avatar">
+                        <div class="info">
+                            <div class="name2">Фролов Александр</div>
+                            <div class="age-adress">28 лет, Москва</div>
+                        </div>
+                    </div>    
+                    <div class="comtext">Осенью ходили в поход с друзьями. Впечатления исключительно положительные! Инструкторы - 
+                        настоящие эксперты - всему научили, все показали. Рассказали истории о всех местах, которые мы так или 
+                        иначе посещали. С уверенностью могу разделить жизнь на до этого похода и после. Настолько сильно не
+                            отдыхал душой и телом никогда. Всем рекомендую! </div>
+                </div>
+                <div class="comment">
+                    <div class="cominfo">
+                        <img src="images/oley.png" alt="Светлана Олейник" class="avatar">
+                        <div class="info">
+                            <div class="name2">Светлана Олейник</div>
+                            <div class="age-adress">25 лет, Владивосток</div>
+                        </div>
+                    </div>    
+                    <div class="comtext">Хороший полноценный поход с разнообразными локациями. В начале дорога идет по лыжне, далее 
+                        прошли мимо полигона, по болотам, у озер и лесных ручьев, остатков дач конца 19 века. Инструктор Федор 
+                        Кайгородов добросовестный и внимательный к технике безопасности и своим туристам. Совет для будущих 
+                        оходников: важно соблюсти рекомендации в памятке.</div>
+                </div>
+                <div class="comment">
+                    <div class="cominfo">
+                        <img src="images/bazen.png" alt="Светлана Олейник" class="avatar">
+                        <div class="info">
+                            <div class="name2">Евгения Баженова</div>
+                            <div class="age-adress">23 года, Кастрома</div>
+                        </div>
+                    </div>    
+                    <div class="comtext">Поход понравился!! Ранее не ходила на такие длинные дистанции. В первый день прошли около 30 км, 
+                        физически я устала на 18м, поэтому не была уверена, пройду ли до конца. Но шла и шла впереди, не плелась в конце 
+                        группы. К моему удивлению второй день прошел для меня легче, чем ожидала, видимо дело привычки. Спасибо ребятам и 
+                        инструкторам за помощь и поддержку!</div>
+                </div>
+            </div>    
+        </div>    
    </section>
    <!-- Galery -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + Photos -->
    <section>
-        <div class="headings">
-            <div class="main-title">Фотогалерея</div>
-            <div class="subtitle">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
-                Лучшие фотографии украсят этот раздел нашего сайта.</div>
-        </div>
-        <div class="buttons">
-            <div class="backward-button">
-                <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                    <use xlink:href="images/icons.svg#arrow-l"></use>
-                </svg>
+       <div class="wrapper">
+            <div class="photoheadings">
+                <h2 class="phototitle">Фотогалерея
+                    <div class="subtitle" style="margin-top: 19px;">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
+                    Лучшие фотографии украсят этот раздел нашего сайта.</div>
+                </h2>    
+                <div class="photobuttons">
+                    <div class="backward-button">
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-l"></use>
+                        </svg>
+                    </div>
+                    <div class="forward-button"> 
+                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <use xlink:href="images/icons.svg#arrow-r"></use>
+                        </svg>  
+                    </div>    
+                </div>
+            </div>    
+            <div class="photos">
+                <img src="images/1.png" alt="">
+                <img src="images/2.png" alt="">
+                <img src="images/3.png" alt="">
+                <img src="images/4.png" alt="">
+                <img src="images/5.png" alt="">
+                <img src="images/6.png" alt="">
+                <img src="images/7.png" alt="">
             </div>
-            <div class="forward-button"> 
-                <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                    <use xlink:href="images/icons.svg#arrow-r"></use>
-                </svg>  
-        </div>
-        <div class="photos"></div>
+        </div>    
    </section>
        <!-- Feedback -> (Form -> Main-title + Subtitle) + (Inputs -> Name + Number) + Send-Button + last-BG-image --> 
-   <section class="form">
-        <div class="main-title">Остались вопросы?</div>
-        <div class="subtitle">Заполните форму и наш оператор свяжется с вами для консультации.</div>
-    <input type="text" class="name" placeholder="Как к вам обращаться?">
-    <input type="text" class="number" placeholder="Телефон">
-    <button class="send-button">Отправить</button>
+   <section class="Form">
+        <div class="formtitle">Остались вопросы?</div>
+        <div class="formsubtitle"">Заполните форму и наш оператор свяжется с вами для консультации.</div>
+    <input type="text" class="yourname" placeholder="       Как к вам обращаться?">
+    <input type="text" class="yournumber" placeholder="     Телефон">
+    <button class="send-button" style="color: #FFFFFF; font-size: 16px;">Отправить</button>
     <img src="" alt="" class="last-BG-image">
    </section>
     <!--     Footer -> (Top -> Logo-image + (Menu -> Tours + Education + Company + Galery + Feedback)   + Phone) + 
         (Bottom -> (Social-media -> Vk-button + FB-button + Inst-button) + Text) -->
     <footer>
-        <div class="top">
-            <div class="logo">
-                <svg width="226" height="61,87">
-                    <use xlink:href="images/icons.svg#Logo"></use>
-                </svg>
-                <div class="title">Организация походов в горы</div>
-            </div>
-            <div class="menu">
-                <button class="tours">Туры</button>
-                <button class="education">Обучение</button>
-                <button class="company">О нас</button>
-                <button class="comments">Отзывы</button>
-                <button class="galery">Фотографии</button>
-                <button class="feedback">Кнтакты</button>
-            </div>
-            <div class="number">8 800 725 32 32</div>
-        </div>
-        <div class="bottom">
-            <div class="Socials">
-                <ul class="socials-list2">
-                    <li class="vk2">
-                        <a href="www.vk.com">
-                            <svg width="21.3" height="21.3">
-                                <use xlink:href="images/icons.svg#vk"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="fb2">
-                        <a href="www.facebook.com">
-                            <svg width="21.3" height="21.3">
-                                <use xlink:href="images/icons.svg#FB"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="insta2">
-                        <a href="www.instagram.com">
-                            <svg width="21.3" height="21.3">
-                                <use xlink:href="images/icons.svg#insta"></use>
-                            </svg>
-                        </a>
-                    </li>               
+        <div class="wrapper">
+            <div class="nav" style="display: flex">
+                <svg style="padding-top:11px; max-width:226px; max-height:62px">
+                    <use xlink:href="images/icons.svg#Logobl"></use>
+               </svg>
+                <ul class="Menu">
+                    <li class="item">Туры</li>
+                    <li class="item">Обучение</li>
+                    <li class="item">О нас</li>
+                    <li class="item">Отзывы</li>
+                    <li class="item">Фотографии</li>
+                    <li class="item">Контакты</li>
                 </ul>
+                     <div class="Phone">8 800 725 32 32</div>
+                </div>
+            <div class="bottom">
+                <div class="Socials">
+                    <ul class="socials-list2">
+                        <li class="vk2">
+                            <a href="www.vk.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#vk2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="fb2">
+                            <a href="www.facebook.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#fb2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="insta2">
+                            <a href="www.instagram.com">
+                                <svg width="21.3" height="21.3">
+                                    <use xlink:href="images/icons.svg#insta2"></use>
+                                </svg>
+                            </a>
+                        </li>               
+                    </ul>
+                </div>
+                <div class="poltext">Политика конфиденциальности</div>
             </div>
-            <div class="text">Политика конфиденциальности</div>
-        </div>
+        </div>    
     </footer>
 </body>
 </html>
