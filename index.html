@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalise.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
     <header class ="top-section">
         <div class="wrapper">
             <div class="nav" style="display: flex">
-                <svg style="padding-top:11px; min-width:226px; min-height:62px">
+                <svg style="margin-top:43px; margin-left:121px; min-width:226px; min-height:62px">
                      <use xlink:href="images/icons.svg#Logo"></use>
                 </svg>
                 <ul class="Menu">
@@ -35,41 +35,45 @@
                     <ul class="socials-list">
                         <li class="vk">
                             <a href="www.vk.com">
-                                <svg>
+                                <svg style="max-width: 12px; max-height: 6.85px; padding: 0px 0px 7px 0px">
                                     <use xlink:href="images/icons.svg#vk"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="fb">
                             <a href="https://www.facebook.com/">
-                                <svg>
+                                <svg style="max-width: 5.33px; max-height: 10.65px; padding: 0px 0px 7px 0px">
                                     <use xlink:href="images/icons.svg#fb"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="insta">
                             <a href="www.instagram.com">
-                                <svg>
+                                <svg style="max-width: 13px; max-height: 13px; padding: 0px 0px 7px 0px">
                                     <use xlink:href="images/icons.svg#insta"></use>
                                 </svg>
                             </a>
                         </li>               
                     </ul>
-                <img src="" alt="" class="tour-image">  
-        <section class="cards-1">
-                <div class="main-title">Ближайшие туры</div>
+                <img src="" alt="" class="tour-image"> 
+        </div>
+    </header> 
+    <section class="cards-1">
+        <div class="wrapper">
+                <div class="main-title">Ближайшие туры
                     <div class="buttons">
                         <div class="backward-button">
-                            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <svg style="max-width: 13px; padding: 14px 12px 17px 12px">
                                 <use xlink:href="images/icons.svg#arrow-l"></use>
                             </svg>
                         </div>
                         <div class="forward-button"> 
-                            <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                            <svg style="max-width: 13px; padding: 14px 12px 17px 12px">
                                 <use xlink:href="images/icons.svg#arrow-r"></use>
                             </svg>  
                         </div>
                     </div>
+                </div>
                     <div class="tour-cards">
                         <div class="ing">
                         <div class="location-time">
@@ -248,13 +252,12 @@
                     </div>
                 </div>
             </div>    
-        </section>
-    </header>    
+    </section>   
       <!--  About education -> (Headings -> Main-title + Subtitle) + (Buttons -> backward-button + forward-button) + 
        Column-title + (Column -> Avatar + Name + Vk + About) + (Column -> Avatar + Name + Vk + About) + 
         (Column -> Avatar + Name + Vk-button + About) + (Column -> Avatar + Name + Vk-button + About) + 
         (Column -> Avatar + Name + Vk-button + About) + (Process -> Title + (3-element -> Icon + Text)) -->
-  <section>
+    <section class="edu">
         <div class="wrapper">
             <div class="headings">
                 <div class="edutitle">Обучение</div>
@@ -262,17 +265,18 @@
                     пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
             </div>
             <div class="educationheader">
-                <div class="Column-title">Наши инструкторы</div>
-                 <div class="buttons">
-                    <div class="backward-button">
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                            <use xlink:href="images/icons.svg#arrow-l"></use>
-                        </svg>
-                    </div>
-                    <div class="forward-button"> 
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                            <use xlink:href="images/icons.svg#arrow-r"></use>
-                        </svg>  
+                <div class="tutors">Наши инструкторы
+                    <div class="buttons" style="margin-left: 740px;">
+                        <div class="backward-button">
+                            <svg style="max-width: 13px; padding: 14px 12px 17px 12px">
+                                <use xlink:href="images/icons.svg#arrow-l"></use>
+                            </svg>
+                        </div>
+                        <div class="forward-button"> 
+                            <svg style="max-width: 13px; padding: 14px 12px 17px 12px"">
+                                <use xlink:href="images/icons.svg#arrow-r"></use>
+                            </svg>  
+                        </div>
                     </div>
                 </div>
             </div>
@@ -353,7 +357,7 @@
                 </div>
             </div>
             <div class="process">
-                <div class="Column-title">Процесс обучения</div>
+                <h3 class="Process-title">Процесс обучения</h3>
                 <div class="elements">
                     <div class="element">
                         <svg class="edusymbol" wedth=23,34px; height=25px>
@@ -382,7 +386,36 @@
                 </div>
             </div>
         </div>   
-  </section>
+    </section>
+    <div class="circles">
+        <svg class="lines" style="max-width: 130px;">
+            <use xlink:href="images/icons.svg#line1"></use>
+        </svg>
+        <svg class="elli">
+            <use xlink:href="images/icons.svg#ellipse"></use>
+        </svg>
+        <svg class="lines">
+            <use xlink:href="images/icons.svg#line2"></use>
+        </svg>
+        <svg class="elli">
+            <use xlink:href="images/icons.svg#ellipse"></use>
+        </svg>
+        <svg class="lines">
+            <use xlink:href="images/icons.svg#line3"></use>
+        </svg>
+        <svg class="elli">
+            <use xlink:href="images/icons.svg#ellipse"></use>
+        </svg>
+        <svg class="lines">
+            <use xlink:href="images/icons.svg#line4"></use>
+        </svg>
+        <svg class="elli">
+            <use xlink:href="images/icons.svg#ellipse"></use>
+        </svg>
+        <svg class="lines">
+            <use xlink:href="images/icons.svg#line5"></use>
+        </svg>
+    </div>
       <!--   About company -> Company-image + Headings + (History -> Title + Subtitle) + (Goal -> Title + Subtitle) -->
    <section class="company">
     <!--img src="images/compimg.png" alt="we are" class="company-emage"-->
@@ -414,12 +447,12 @@
                 <h2 class="title" style="max-width: 153px; margin-top: 2px; margin-right: 964px;">Отзывы</h2>
                 <div class="buttons">
                      <div class="backward-button">
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                        <svg style="max-width: 13px; padding: 14px 12px 17px 12px"">
                             <use xlink:href="images/icons.svg#arrow-l"></use>
                         </svg>
                     </div>
                     <div class="forward-button"> 
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
+                        <svg style="max-width: 13px; padding: 14px 12px 17px 12px"">
                             <use xlink:href="images/icons.svg#arrow-r"></use>
                         </svg>  
                     </div>
@@ -472,30 +505,22 @@
    <section>
        <div class="wrapper">
             <div class="photoheadings">
-                <h2 class="phototitle">Фотогалерея
-                    <div class="subtitle" style="margin-top: 19px;">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
+                <h2 class="phototitle">Фотогалерея</h2>
+                <div class="subtitle" style="margin-top: 19px;">Добавляйте фото в Instagram с хэштегом <span>#кавказтур</span>, а также отмечайте нас на фото.
                     Лучшие фотографии украсят этот раздел нашего сайта.</div>
-                </h2>    
-                <div class="photobuttons">
-                    <div class="backward-button">
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                            <use xlink:href="images/icons.svg#arrow-l"></use>
-                        </svg>
-                    </div>
-                    <div class="forward-button"> 
-                        <svg style="padding-top: 14px; padding-right: 12px; padding-bottom: 17px; padding-left: 12px;">
-                            <use xlink:href="images/icons.svg#arrow-r"></use>
-                        </svg>  
-                    </div>    
                 </div>
             </div>    
             <div class="photos">
                 <img src="images/1.png" alt="">
-                <img src="images/2.png" alt="">
-                <img src="images/3.png" alt="">
+                <div class="photo2">
+                    <img src="images/2.png" alt="">
+                    <img src="images/3.png" alt="">
+                </div>
                 <img src="images/4.png" alt="">
-                <img src="images/5.png" alt="">
-                <img src="images/6.png" alt="">
+                <div class="photo2">
+                    <img src="images/5.png" alt="">
+                    <img src="images/6.png" alt="">
+                </div>
                 <img src="images/7.png" alt="">
             </div>
         </div>    
@@ -514,7 +539,7 @@
     <footer>
         <div class="wrapper">
             <div class="nav" style="display: flex">
-                <svg style="padding-top:11px; max-width:226px; max-height:62px">
+                <svg style="margin: 45px 0px 0px 121px; max-width:226px; max-height:62px">
                     <use xlink:href="images/icons.svg#Logobl"></use>
                </svg>
                 <ul class="Menu">
@@ -532,21 +557,21 @@
                     <ul class="socials-list2">
                         <li class="vk2">
                             <a href="www.vk.com">
-                                <svg width="21.3" height="21.3">
+                                <svg style="max-width: 12px; max-height: 6.85px; padding: 0px 7px 7px 0px">
                                     <use xlink:href="images/icons.svg#vk2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="fb2">
                             <a href="www.facebook.com">
-                                <svg width="21.3" height="21.3">
+                                <svg style="max-width: 7.08px; max-height: 14.25px; padding: 0px 10px 7px 0px">
                                     <use xlink:href="images/icons.svg#fb2"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="insta2">
                             <a href="www.instagram.com">
-                                <svg width="21.3" height="21.3">
+                                <svg style="max-width: 17.97px; max-height: 17.97px; padding: 0px 7px 7px 0px">
                                     <use xlink:href="images/icons.svg#insta2"></use>
                                 </svg>
                             </a>
